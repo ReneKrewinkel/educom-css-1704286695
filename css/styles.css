@@ -20,10 +20,14 @@
 .cascading-parent {
     font-weight: bold;
     color: #FFF;
+    font-size: 50px;
+    padding: 20px;
+    margin: 10px;
 }
 
 .cascading-child {
     background-color: #000;
     width: 200px;
     height: 200px;
+    color: #FF0 !important;
 }
