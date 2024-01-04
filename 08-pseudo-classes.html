@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="css/style3.css" />
+    <title>Exercise 8</title>
+    <style>
+      body {
+        text-align: center;
+        font-size: 25px;
+        font-family: Arial, Helvetica, sans-serif;
+        color: black;
+      }
+      .smaller-button {
+        width: 75px;
+        height: 20px;
+        font-size: 16px;
+        background-color: rgb(55, 255, 188);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: auto;
+      }
+    </style>
+  </head>
+
+  <body>
+    <h1>Styling a link depending on state</h1>
+    <div class="site-color site-font site-square">
+      <a href="https://edu-deta.com" target="_blank">Educom</a>
+    </div>
+    <b>Note:</b> a:hover MUST come after a:link and a:visited in the CSS
+    definition in order to be effective.
+    <br />
+    <b>Note:</b> a:active MUST come after a:hover in the CSS definition in order
+    to be effective.
+    <h3>Smaller</h3>
+    <div class="smaller-button">
+      <a href="https://edu-deta.com" target="_blank">Educom</a>
+    </div>
+  </body>
+</html>
