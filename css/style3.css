@@ -1,0 +1,28 @@
+
+.site-font {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+}
+
+.site-color {
+    background-color: rgb(233, 8, 8);
+    color: #ffffff;
+}
+
+.site-square {
+    width: 200px;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+
+}
+
+a {
+    color: rgb(255, 255, 255);
+}
+
+h2 {
+    color: green;
+}
