@@ -1,0 +1,62 @@
+   /* At the top of the file */
+   :root {
+
+    /* FONTS */
+    --regular: "Arial";
+    --alternatief: "papyrus";
+
+    /* COLORS */
+    --dark-brown: #402214;
+    --lighter-brown:  #774231;
+    --lightest-brown: #aa4b1b;
+
+    --darker-red: #b31714;
+    --lighter-red: #dc3439;
+
+    --white: #FFF;
+    --black: #000;
+
+    --margin-value: 50px;
+    --pading-value: 25px;
+    --width-value: 100px;
+    --height-value: 100px;
+}
+
+/* Usage */   
+
+h1 {
+    font-family: var(--regular);
+    color: var(--darker-red);
+}
+
+.site-square {
+  width: var(--width-value);
+  height: var(--height-value);
+  margin:var(--margin-value);
+  padding: var(--pading-value);
+  font-family: var(--alternatief);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(218, 255, 55);
+  color:blue;
+}
+/* unvisited link */
+a:link {
+  color: red;
+}
+
+/* visited link */
+a:visited {
+  color: green;
+}
+
+/* mouse over link */
+a:hover {
+  color: hotpink;
+}
+
+/* selected link */
+a:active {
+  color: blue;
+}
