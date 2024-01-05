@@ -9,7 +9,7 @@
     width: 75px;
     padding: 10px;
     color: var(--white);
-    background: linear-gradient(90deg, rgb(59, 1, 1) 0%, rgb(194, 6, 6) 20%, rgb(253, 74, 3) 40%, rgb(202, 96, 10) 60%, rgb(247, 172, 10) 80%, rgb(255, 230, 2) 100%);
+    background: linear-gradient(90deg, rgb(59, 1, 1) 0%, rgb(194, 6, 6) 20%, rgb(253, 74, 3) 40%, rgb(224, 107, 11) 60%, rgb(247, 172, 10) 80%, rgb(255, 230, 2) 100%);
     border-radius: 10px;
     display: block;
     text-align: center;
