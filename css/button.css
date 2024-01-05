@@ -1,0 +1,31 @@
+:root{
+    --lighter-red:#F00;
+    --darker-red: #af1f16;
+    --white: #fff;
+    --black: rgb(0, 0, 0);
+}
+
+.button-container a {
+    width: 75px;
+    padding: 10px;
+    color: var(--white);
+    background: linear-gradient(90deg, rgb(59, 1, 1) 0%, rgb(194, 6, 6) 20%, rgb(253, 74, 3) 40%, rgb(202, 96, 10) 60%, rgb(247, 172, 10) 80%, rgb(255, 230, 2) 100%);
+    border-radius: 10px;
+    display: block;
+    text-align: center;
+    background-size: 200%;
+
+    -webkit-box-shadow: 0px 0px 5px 1px rgba(0,0,0,0.7);
+    -moz-box-shadow: 0px 0px 5px 1px rgba(0,0,0,0.7);
+     box-shadow: 0px 0px 5px 1px rgba(0,0,0,0.7);
+
+     text-decoration: none;
+     transition: all  1s ease;
+
+}
+
+.button-container a:hover {
+    background-position: center right;
+    color: var(--black);
+    text-decoration: none;
+}
